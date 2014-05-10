@@ -4,38 +4,22 @@ $(document).ready(function(){
    	$stickyEl = $('#the-sticky-div');
 });
 
-       // elTop = $stickyEl.offset().top;
+       elTop = $stickyEl.offset().top;
 
-   // $window.scroll(function() {
-   //      $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-   //  });
+   $window.scroll(function() {
+        $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+    });
 
 
 // Show hide images
 
 $(document).ready(function(){
-    $(".show1").click(function(){
-        $(".rw").toggle();
-    });
-    $(".show2").click(function(){
-        $(".quote").toggle();
-    });
-    $(".show3").click(function(){
-        $(".airquotes").toggle();
-    });
-    $(".show4").click(function(){
-        $(".harmony").toggle();
-    });
-    $(".show5").click(function(){
-        $(".gravity").toggle();
-    });
-    $(".show6").click(function(){
-        $(".twitter").toggle();
-    });
-    $(".show7").click(function(){
-        $(".cori").toggle();
-    });
-    $(".show8").click(function(){
-        $(".daryn").toggle();
-    });
+
+
+
+
+
+
+
+
 });
