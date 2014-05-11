@@ -24,7 +24,13 @@ p {
 	margin-top: 60px;
 }
 
+.header {
+	text-shadow: 1px 1px 5px #242424;
+}
 
+.pimage-container {
+	float: left;
+}
 
 
 
