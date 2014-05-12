@@ -12,7 +12,17 @@ h1, h2, h3 {
 	font-weight: 800;
 }
 
+p {
+	margin-bottom: 2em;
+	font-size: 24px;
 
+}
+
+.main {
+	max-width: 940px;
+	margin: auto;
+	margin-top: 60px;
+}
 
 
 
