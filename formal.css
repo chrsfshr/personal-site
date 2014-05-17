@@ -79,7 +79,22 @@ header h1 {
   display: block;
 }
 
+@media screen and (min-width: 35em) {
+  
+  header {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  
+  .portrait {
+    margin-right: 20px;
+    margin-left: 0;
+    float: left;
+  }
+  
 
+}
 
 /* Utilities */
 
