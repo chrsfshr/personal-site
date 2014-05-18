@@ -32,7 +32,21 @@ p {
 	float: left;
 }
 
+.content {
+	float: right;
+	max-width: 705px;
+	margin: 2em;
+}
 
+.p-image {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url(images/profile-4.jpg) no-repeat;
+	box-shadow: 5px 5px 5px #242424;
+}
 
 #the-sticky-div {
  	position: fixed;
