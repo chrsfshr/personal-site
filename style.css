@@ -87,7 +87,24 @@ a:visited {
 
 }
 
+@media screen and (max-width: 950px) {
+    #the-sticky-div {
+    	position: relative;
+    	margin: auto;
+    	max-width: 160px;
+	}
+	.pimage-container {
+		float: none;
+	}
 
+	h1 {
+		font-size: 35px;
+	}
+
+	p {
+		font-size: 23px;
+	}
+}
 
 
 
