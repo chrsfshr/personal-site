@@ -14,7 +14,9 @@ $(document).ready(function(){
 // Show hide images
 
 $(document).ready(function(){
-
+    $(".show1").click(function(){
+        $(".rw").toggle();
+    });
 
 
 
