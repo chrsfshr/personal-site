@@ -17,7 +17,9 @@ $(document).ready(function(){
     $(".show1").click(function(){
         $(".rw").toggle();
     });
-
+    $(".show2").click(function(){
+        $(".quote").toggle();
+    });
 
 
 
