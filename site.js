@@ -4,11 +4,11 @@ $(document).ready(function(){
    	$stickyEl = $('#the-sticky-div');
 });
 
-       elTop = $stickyEl.offset().top;
+       // elTop = $stickyEl.offset().top;
 
-   $window.scroll(function() {
-        $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-    });
+   // $window.scroll(function() {
+   //      $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+   //  });
 
 
 // Show hide images
