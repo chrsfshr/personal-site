@@ -20,7 +20,9 @@ $(document).ready(function(){
     $(".show2").click(function(){
         $(".quote").toggle();
     });
-
+    $(".show3").click(function(){
+        $(".airquotes").toggle();
+    });
 
 
 
