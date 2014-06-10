@@ -29,7 +29,9 @@ $(document).ready(function(){
     $(".show5").click(function(){
         $(".gravity").toggle();
     });
-
+    $(".show6").click(function(){
+        $(".twitter").toggle();
+    });
 
 
 });
