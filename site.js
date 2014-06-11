@@ -26,7 +26,9 @@ $(document).ready(function(){
     $(".show4").click(function(){
         $(".harmony").toggle();
     });
-
+    $(".show5").click(function(){
+        $(".gravity").toggle();
+    });
 
 
 
