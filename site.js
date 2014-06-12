@@ -23,7 +23,9 @@ $(document).ready(function(){
     $(".show3").click(function(){
         $(".airquotes").toggle();
     });
-
+    $(".show4").click(function(){
+        $(".harmony").toggle();
+    });
 
 
 
