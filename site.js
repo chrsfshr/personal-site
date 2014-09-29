@@ -32,6 +32,12 @@ $(document).ready(function(){
     $(".show6").click(function(){
         $(".twitter").toggle();
     });
+    $(".show7").click(function(){
+        $(".cori").toggle();
+    });
+    $(".show8").click(function(){
+        $(".daryn").toggle();
+    });
 
 
 });
