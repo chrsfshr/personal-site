@@ -18,6 +18,19 @@ p {
 
 }
 
+.fa {
+	font-size: 40px;
+	margin: 5px;
+}
+
+i.fa.fa-code {
+    font-size: 25px;
+}
+
+.p-image.animated.infinite.pulse {
+    margin-bottom: 35px;
+}
+
 .main {
 	max-width: 940px;
 	margin: auto;
