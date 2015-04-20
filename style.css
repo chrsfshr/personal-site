@@ -1,0 +1,164 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:2}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+	font-family: 'Merriweather', serif;
+	background: #716F64;
+  	color: white;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+p {
+	margin-bottom: 2em;
+	font-size: 24px;
+
+}
+
+.main {
+	max-width: 940px;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.header {
+	text-shadow: 1px 1px 5px #242424;
+}
+
+.pimage-container {
+	float: left;
+}
+
+.content {
+	float: right;
+	max-width: 705px;
+	margin: 2em;
+}
+
+.p-image {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url(images/profile-4.jpg) no-repeat;
+	box-shadow: 5px 5px 5px #242424;
+}
+
+#the-sticky-div {
+ 	position: fixed;
+}
+
+.p-image {
+  -moz-animation-duration: 2s !important;
+  -moz-animation-delay: 1s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s !important;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+a {
+	text-decoration: none;
+	color: #DBCFB6;
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.inline-pop {
+	text-align: center;
+}
+
+.quote {
+	font-style: italic;
+	color: #DBCFB6;
+	text-shadow: 1px 1px 5px #242424;
+
+
+}
+
+@media screen and (max-width: 950px) {
+    #the-sticky-div {
+    	position: relative;
+    	margin: auto;
+    	max-width: 160px;
+	}
+	.pimage-container {
+		float: none;
+	}
+
+	h1 {
+		font-size: 35px;
+	}
+
+	p {
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 25px;
+	}
+
+	p {
+		font-size: 19px;
+	}
+	
+	.inline-pop img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
